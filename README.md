@@ -29,10 +29,10 @@ All prerender options are customizable with env vars :
 - `ALLOWED_DOMAINS` https://github.com/prerender/prerender#whitelist
 - `BLACKLISTED_DOMAINS` https://github.com/prerender/prerender#blacklist
 
-Thanks to `prerender-memory-cache` and `prerender-request-blacklist` you can add :
+Thanks to `prerender-memory-cache` you can add :
 - `CACHE_MAXSIZE` https://github.com/prerender/prerender-memory-cache#cache_maxsize
 - `CACHE_TTL` https://github.com/prerender/prerender-memory-cache#cache_ttl
 
 
 
-For more information about usage, see [https://github.com/prerender/prerender#readme](https://github.com/prerender/prerender#readme), [https://github.com/kenylieou/prerender-request-blacklist#readme](https://github.com/kenylieou/prerender-request-blacklist#readme) and [https://github.com/prerender/prerender-memory-cache#readme](https://github.com/prerender/prerender-memory-cache#readme)
+For more information about usage, see [https://github.com/prerender/prerender#readme](https://github.com/prerender/prerender#readme) and [https://github.com/prerender/prerender-memory-cache#readme](https://github.com/prerender/prerender-memory-cache#readme)
