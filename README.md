@@ -34,6 +34,11 @@ Thanks to `prerender-memory-cache` you can add :
 - [`CACHE_MAXSIZE`](https://github.com/prerender/prerender-memory-cache#cache_maxsize)
 - [`CACHE_TTL`](https://github.com/prerender/prerender-memory-cache#cache_ttl)
 
+In the example below `prerender` will authorize only domains `www.example.com`, `www.google.com` and cache all responses in memory during `6000` seconds :
+```bash
+docker run vsix/prerender -p 3030:3000 -e ALLOWED_DOMAINS=www.example.com,www.google.com -e CACHE_TTL=6000
+```
+
 ## More
 
 For more information about other options and usage see :
