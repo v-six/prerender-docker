@@ -7,7 +7,6 @@ Prerender is a node server that uses Headless Chrome to render HTML, screenshots
 
 - node@11
 - prerender@5.5.1
-- prerender-request-blacklist@1.0.2
 - prerender-memory-cache@1.0.2
 
 ## Usage
