@@ -1,6 +1,6 @@
 {
   "name": "prerender-stack",
-  "version": "5.5.1",
+  "version": "5.6.0",
   "description": "Prerender container with memory-cache plugin built on Alpine",
   "author": "Kévin Bargoin <kevin.bargoin@gmail.com>",
   "license" : "MIT",
@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "prerender": "5.5.1",
+    "prerender": "5.6.0",
     "prerender-memory-cache": "1.0.2"
   }
 }
